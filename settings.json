@@ -1,0 +1,60 @@
+{
+  "editor.fontWeight": "400",
+  "editor.wordWrap": "on",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.cursorBlinking": "expand",
+  "editor.linkedEditing": true,
+  "editor.formatOnSave": false,
+  "editor.tabSize": 2,
+  "editor.cursorStyle": "block",
+  "editor.scrollbar.vertical": "auto",
+  "editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.fontSize": 13,
+  "editor.renderWhitespace": "none",
+  "editor.minimap.enabled": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.stickyScroll.enabled": true,
+  "editor.smoothScrolling": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "none",
+  "workbench.colorCustomizations": {
+    "[Default Dark Modern]": {
+      "editor.background": "#181818",
+      "sideBar.background": "#181818",
+      "sideBar.border": "#222222"
+    }
+  },
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.fontSize": 12,
+  "gitlens.views.commitDetails.files.layout": "tree",
+  "redhat.telemetry.enabled": false,
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "terminal.integrated.defaultProfile.windows": "Windows PowerShell",
+  "gitlens.views.branches.branches.layout": "list",
+  "terminal.integrated.env.windows": {},
+  "explorer.compactFolders": false,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "terminal.integrated.defaultLocation": "view",
+  "workbench.editor.empty.hint": "hidden",
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  "tailwindCSS.colorDecorators": false,
+  "git.openRepositoryInParentFolders": "never"
+}
