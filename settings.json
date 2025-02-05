@@ -1,5 +1,5 @@
 {
-  "editor.fontWeight": "400",
+  "editor.fontWeight": "500",
   "editor.wordWrap": "on",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.cursorBlinking": "expand",
@@ -11,7 +11,7 @@
   "editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace",
   "editor.fontLigatures": true,
   "editor.cursorSmoothCaretAnimation": "on",
-  "editor.fontSize": 13,
+  "editor.fontSize": 14,
   "editor.renderWhitespace": "none",
   "editor.minimap.enabled": true,
   "editor.inlineSuggest.enabled": true,
@@ -19,12 +19,18 @@
   "editor.smoothScrolling": true,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.colorTheme": "One Dark Pro More Darker Flat",
   "workbench.colorCustomizations": {
     "[Default Dark Modern]": {
       "editor.background": "#181818",
       "sideBar.background": "#181818",
       "sideBar.border": "#222222"
-    }
+    },
+    "[One Dark Pro More Darker Flat]": {
+      "sideBar.border": "#414141"
+    },
+    "dart.closingLabels": "#9d9d9d60"
   },
   "prettier.jsxSingleQuote": true,
   "prettier.singleQuote": true,
@@ -32,6 +38,8 @@
   "typescript.preferences.quoteStyle": "single",
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.fontSize": 12,
+  "terminal.integrated.defaultProfile.windows": "Windows PowerShell",
+  "terminal.integrated.defaultLocation": "view",
   "gitlens.views.commitDetails.files.layout": "tree",
   "redhat.telemetry.enabled": false,
   "[xml]": {
@@ -40,9 +48,7 @@
   "[prisma]": {
     "editor.defaultFormatter": "Prisma.prisma"
   },
-  "terminal.integrated.defaultProfile.windows": "Windows PowerShell",
   "gitlens.views.branches.branches.layout": "list",
-  "terminal.integrated.env.windows": {},
   "explorer.compactFolders": false,
   "github.copilot.enable": {
     "*": true,
@@ -50,11 +56,7 @@
     "markdown": false,
     "scminput": false
   },
-  "terminal.integrated.defaultLocation": "view",
-  "workbench.editor.empty.hint": "hidden",
-  "[csharp]": {
-    "editor.defaultFormatter": "ms-dotnettools.csharp"
-  },
   "tailwindCSS.colorDecorators": false,
-  "git.openRepositoryInParentFolders": "never"
+  "git.openRepositoryInParentFolders": "never",
+  "git.autoRepositoryDetection": false
 }
